@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "cron"
+      cronjob: "0 0 * * *"
+  - package-ecosystem: "docker" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "cron"
+      cronjob: "0 0 * * *"
+  - package-ecosystem: "dotnet-sdk" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "cron"
+      cronjob: "0 0 * * *"
